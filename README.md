@@ -33,7 +33,7 @@ SSDT hotpatch来自[RehabMan](https://github.com/RehabMan/OS-X-Clover-Laptop-Con
 
 #### 1.下载 macOS
 
-* (1)使用黑苹果虚拟机或者白苹果下载 macOS 安装器，例如 [macOS Mojave](https://support.apple.com/zh-cn/HT201475) 或 [macOS High Sierra](https://support.apple.com/zh-cn/HT201475)。
+* (1)使用黑苹果虚拟机或者白苹果下载 macOS 安装器，例如 [macOS Mojave](https://support.apple.com/zh-cn/HT201475) 或 [macOS High Sierra](https://support.apple.com/zh-cn/HT201475)。
 
 * (2)macOS 安装器打开后，请退出而不要继续安装。
 
