@@ -30,21 +30,22 @@ SSDT hotpatch来自[RehabMan](https://github.com/RehabMan/OS-X-Clover-Laptop-Con
 **1**. EFI
 
 安装时（不保证能顺利安装）：
-1.下载 macOS
 
-(1)使用黑苹果虚拟机或者白苹果下载 macOS 安装器，例如 [macOS Mojave](https://support.apple.com/zh-cn/HT201475) 或 [macOS High Sierra](https://support.apple.com/zh-cn/HT201475)。
+#### 1.下载 macOS
 
-(2)macOS 安装器打开后，请退出而不要继续安装。
+* (1)使用黑苹果虚拟机或者白苹果下载 macOS 安装器，例如 [macOS Mojave](https://support.apple.com/zh-cn/HT201475) 或 [macOS High Sierra](https://support.apple.com/zh-cn/HT201475)。
 
-(3)在“应用程序”文件夹中找到单个“Install”文件形式的安装器，例如“Install macOS Mojave”。
+* (2)macOS 安装器打开后，请退出而不要继续安装。
 
-2.在“终端”中使用“createinstallmedia”命令
+* (3)在“应用程序”文件夹中找到单个“Install”文件形式的安装器，例如“Install macOS Mojave”。
 
-(1)下载安装器后，请连接用于可引导安装器的 USB 闪存驱动器或其他宗卷。确保该驱动器至少有 12 GB 可用储存空间，并且[格式化为 Mac OS 扩展格式](https://support.apple.com/zh-cn/HT208496)。
+#### 2.在“终端”中使用“createinstallmedia”命令
 
-(2)打开“应用程序”文件夹内“实用工具”文件夹中的“终端”。
+* (1)下载安装器后，请连接用于可引导安装器的 USB 闪存驱动器或其他宗卷。确保该驱动器至少有 12 GB 可用储存空间，并且[格式化为 Mac OS 扩展格式](https://support.apple.com/zh-cn/HT208496)。
 
-(3)在“终端”中键入或粘贴以下命令之一。这些命令假设安装器仍位于您的“应用程序”文件夹中，并且 MyVolume 是 USB 闪存驱动器或您正在使用的其他宗卷的名称。如果不是这个名称，请相应地替换为 ``MyVolume``。
+* (2)打开“应用程序”文件夹内“实用工具”文件夹中的“终端”。
+
+* (3)在“终端”中键入或粘贴以下命令之一。这些命令假设安装器仍位于您的“应用程序”文件夹中，并且 MyVolume 是 USB 闪存驱动器或您正在使用的其他宗卷的名称。如果不是这个名称，请相应地替换为 ``MyVolume``。
 
 [Mojave](https://support.apple.com/zh-cn/HT201475)：*
 ```sh 
