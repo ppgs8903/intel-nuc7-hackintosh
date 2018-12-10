@@ -17,7 +17,7 @@ Intel NUC7 微型电脑 黑苹果安装和日常使用EFI
 
 ### 说明
 
-此合集适用于Intel NUC7 微型电脑，其他系列的NUC 微型电脑也差不多适用(ps. NUC6,7,8)
+此合集适用于Intel NUC7 微型电脑，其他系列的NUC 微型电脑也差不多适用(ps. NUC6,7,8)
 
 SSDT hotpatch来自[RehabMan](https://github.com/RehabMan/OS-X-Clover-Laptop-Config) 
 
@@ -52,7 +52,7 @@ SSDT hotpatch来自[RehabMan](https://github.com/RehabMan/OS-X-Clover-Laptop-Con
 sudo /Applications/Install\ macOS\ Mojave.app/Contents/Resources/createinstallmedia --volume /Volumes/MyVolume
 ```
 制作好后，使用 `clover configurator` 挂载MacOS所在硬盘的EFI分区，把EFI拷贝进去，重启按F10选择U盘启动。
-按照推荐指导，不断点下一步，直到安装完成。
+按照推荐指导，不断点下一步，直到安装完成。
 
 **2**. 声卡、耳机
 
